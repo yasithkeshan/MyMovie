@@ -47,7 +47,7 @@ const Hero = () => {
           className="fixed h-screen w-full bg-cover bg-center text-white flex justify-center items-center z-40 pointer-events-none"
           style={{
             backgroundImage: `url(${child})`,
-            filter: `hue-rotate(${imageColorDetails[0]*360}deg) saturate(${imageColorDetails[1]*100}%) brightness(${imageColorDetails[2]*3}`,
+            filter: `hue-rotate(${imageColorDetails[0]*360}deg) saturate(${imageColorDetails[1]*100}%) brightness(${imageColorDetails[2]*100 + 200}%)`,
             transition: "filter 2s ease-out", 
           }}
         ></div>
