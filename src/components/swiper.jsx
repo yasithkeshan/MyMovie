@@ -114,6 +114,7 @@ const SwiperComponent = ({ sendColor }) => {
         }
         .swiper-pagination {
           z-index: 50;
+          visibility: hidden;
         }
 
       `}</style>
